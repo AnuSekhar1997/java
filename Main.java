@@ -10,11 +10,11 @@ import java.util.*;
         num=sc.nextInt();
         if(num>0){
         
-            System.out.println(num+ " POSITIVE ");
+            System.out.println( " Positive");
                 }
         else if(num<0)
               {
-            System.out.println(num+ "  NEGATIVE ");
+            System.out.println( "  Negative ");
               }
         else
                {
