@@ -3,23 +3,23 @@ import java.util.*;
 {
     public static void main(String []s)
     {
-        int num,x,y;
+        int num;
        
         Scanner sc=new Scanner(System.in);
          
-        System.out.print(" ");
         num=sc.nextInt();
-      
-        x= sc.nextInt();
-        y= num+x;
-   
-        if(y>0)
+        if(num>0){
         
-            System.out.println(y + " POSITIVE ");
-        else if(y<0)
-            System.out.println(y + "  NEGATIVE ");
+            System.out.println(num+ " POSITIVE ");
+                }
+        else if(num<0)
+              {
+            System.out.println(num+ "  NEGATIVE ");
+              }
         else
+               {
             System.out.println("It's Zero");
+             }
          
     }
 }
