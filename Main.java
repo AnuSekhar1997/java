@@ -18,7 +18,7 @@ import java.util.*;
               }
         else
                {
-            System.out.println("It's Zero");
+            System.out.println(" Zero");
              }
          
     }
